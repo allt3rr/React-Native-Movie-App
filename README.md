@@ -9,9 +9,18 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    ```bash
    npm install
    ```
-
+   
 2. Start the app
-
+   
+   ```bash
+   npx expo install react-native-reanimated react-native-gesture-handler react-native-screens
+   npx expo install react-native-safe-area-context react-native-webview
+   ```
+   
+   ```bash
+   npx tailwindcss init
+   ```
+   
    ```bash
    npx expo start
    ```
